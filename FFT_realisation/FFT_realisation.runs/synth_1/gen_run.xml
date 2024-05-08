@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1714992503" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/butterfly_ff.dcp">
   <File Type="PA-TCL" Name="butterfly_ff.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="butterfly_ff_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="butterfly_ff_reports.tcl"/>
   <File Type="RDS-RDS" Name="butterfly_ff.vds"/>
-  <File Type="RDS-UTIL" Name="butterfly_ff_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="butterfly_ff_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="fft_core_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fft_core_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="butterfly_ff.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="butterfly_ff_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="butterfly_ff_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../src/butterfly_ff.sv">
