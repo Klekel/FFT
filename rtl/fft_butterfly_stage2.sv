@@ -65,6 +65,7 @@ logic        [42:0]           re_2;
 logic        [1: 0]           counter;
 logic        [2: 0]           in_counter;
 logic        [2: 0]           out_counter;
+logic                         counter_stop;
 
 initial $readmemb("fft_coef_data.mem", coef);
 
@@ -108,14 +109,14 @@ always_ff @(posedge clk_i) begin
   else out_counter <= out_counter;
 end
 
-always_ff @(posedge clk_i) begin
+always_comb begin
   if(rst_i)begin
-    signal_o <= '0;
+    signal_o = '0;
   end
   else if(valid_o && ready_i)begin
-    signal_o <= output_array[out_counter];
+    signal_o = output_array[out_counter];
   end
-  else signal_o <= signal_o;
+  else signal_o = signal_o;
 end
 
 
@@ -138,27 +139,40 @@ always_ff @(posedge clk_i) begin
   if(rst_i) begin
     ready_o <= '1;
   end
-  else if(counter_stage_4_ff == 3 && ready_i) begin
+  else if(out_counter == 7) begin
     ready_o <= '1;
   end
-  else if(in_counter == 7 || (counter_stage_4_ff == 3 && !ready_i)) begin
+  else if(in_counter == 7) begin
     ready_o <= '0;
   end
   else ready_o <= ready_o;
 end
 
-always_ff @(posedge clk_i) begin
+always_ff @(posedge (clk_i && !ready_o ) or posedge rst_i) begin
   if(rst_i)begin
     counter <= '0;
   end
-  else if(in_counter == 7) begin
-    counter <= '0;
+  else if(!counter_stop)begin
+    if(in_counter == 7) begin
+      counter <= '0;
+    end
+    else begin
+      counter <= counter + 1;
+    end
+  end
+  else counter <= '0;
+
+end
+
+always_ff @(posedge clk_i) begin
+  if(rst_i)begin
+    counter_stop <= '0;
+  end
+  else if(in_counter == 7)begin
+    counter_stop <= '0;
   end
   else if(counter == 3)begin
-    counter <= counter;
-  end
-  else begin
-    counter <= counter + 1;
+    counter_stop <= 1;
   end
 end
 

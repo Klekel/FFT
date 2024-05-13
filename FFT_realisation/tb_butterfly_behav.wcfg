@@ -11,13 +11,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="102.480 ns"></ZoomStartTime>
-      <ZoomEndTime time="530.281 ns"></ZoomEndTime>
-      <Cursor1Time time="340.000 ns"></Cursor1Time>
+      <ZoomStartTime time="976.580 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,174.081 ns"></ZoomEndTime>
+      <Cursor1Time time="1,047.480 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="339"></NameColumnWidth>
-      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+      <NameColumnWidth column_width="395"></NameColumnWidth>
+      <ValueColumnWidth column_width="249"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="4" />
    <wvobject fp_name="group142" type="group">
@@ -55,6 +55,216 @@
          <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
          <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
       </wvobject>
+      <wvobject fp_name="vbus375" type="vbus">
+         <obj_property name="label">re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus323" type="vbus">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/signal_o[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/DATA_WIDTH" type="array">
          <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
          <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
@@ -63,7 +273,6 @@
    <wvobject fp_name="group1349" type="group">
       <obj_property name="label">1_stage</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/clk_i" type="logic">
          <obj_property name="ElementShortName">clk_i</obj_property>
          <obj_property name="ObjectShortName">clk_i</obj_property>
@@ -79,7 +288,6 @@
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/input_array" type="array">
          <obj_property name="ElementShortName">input_array[0:7][49:0]</obj_property>
          <obj_property name="ObjectShortName">input_array[0:7][49:0]</obj_property>
-         <obj_property name="isExpanded"></obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/in_counter" type="array">
          <obj_property name="ElementShortName">in_counter[2:0]</obj_property>
@@ -100,6 +308,10 @@
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/prestage_sum" type="array">
          <obj_property name="ElementShortName">prestage_sum[49:0]</obj_property>
          <obj_property name="ObjectShortName">prestage_sum[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/counter_stop" type="logic">
+         <obj_property name="ElementShortName">counter_stop</obj_property>
+         <obj_property name="ObjectShortName">counter_stop</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/counter" type="array">
          <obj_property name="ElementShortName">counter[1:0]</obj_property>
@@ -235,9 +447,269 @@
          <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
          <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
       </wvobject>
+      <wvobject fp_name="vbus452" type="vbus">
+         <obj_property name="label">re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus426" type="vbus">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/signal_o[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array" type="array">
          <obj_property name="ElementShortName">output_array[0:7][49:0]</obj_property>
          <obj_property name="ObjectShortName">output_array[0:7][49:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[0]" type="array">
+            <obj_property name="ElementShortName">[0][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[1]" type="array">
+            <obj_property name="ElementShortName">[1][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[2]" type="array">
+            <obj_property name="ElementShortName">[2][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[3]" type="array">
+            <obj_property name="ElementShortName">[3][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[4]" type="array">
+            <obj_property name="ElementShortName">[4][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[5]" type="array">
+            <obj_property name="ElementShortName">[5][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[6]" type="array">
+            <obj_property name="ElementShortName">[6][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/output_array[7]" type="array">
+            <obj_property name="ElementShortName">[7][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage1/counter_stage_4_ff" type="array">
          <obj_property name="ElementShortName">counter_stage_4_ff[1:0]</obj_property>
@@ -279,127 +751,6 @@
    <wvobject fp_name="group885" type="group">
       <obj_property name="label">2_stage</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject fp_name="group5809" type="group">
-         <obj_property name="label">stage2_signal_out_sorted</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="isExpanded"></obj_property>
-         <wvobject fp_name="vbus4664" type="vbus">
-            <obj_property name="label">re_0</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4638" type="vbus">
-            <obj_property name="label">im_0</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4562" type="vbus">
-            <obj_property name="label">re_1</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4536" type="vbus">
-            <obj_property name="label">im_1</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4460" type="vbus">
-            <obj_property name="label">re_2</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4434" type="vbus">
-            <obj_property name="label">im_2</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4358" type="vbus">
-            <obj_property name="label">re_3</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4332" type="vbus">
-            <obj_property name="label">im_3</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4256" type="vbus">
-            <obj_property name="label">re_4</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4230" type="vbus">
-            <obj_property name="label">im_4</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4154" type="vbus">
-            <obj_property name="label">re_5</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4128" type="vbus">
-            <obj_property name="label">im_5</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4052" type="vbus">
-            <obj_property name="label">re_6</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus4026" type="vbus">
-            <obj_property name="label">im_6</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus3950" type="vbus">
-            <obj_property name="label">re_7</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus3924" type="vbus">
-            <obj_property name="label">im_7</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject fp_name="vbus3738" type="vbus">
-         <obj_property name="label">re_sum</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus3712" type="vbus">
-         <obj_property name="label">im_sum</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus3840" type="vbus">
-         <obj_property name="label">re_dif</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus3814" type="vbus">
-         <obj_property name="label">im_dif</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider1350">
-         <obj_property name="label">stage1</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider1351">
-         <obj_property name="label">stage2</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider1352">
-         <obj_property name="label">stage3</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider1353">
-         <obj_property name="label">stage4</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/clk_i" type="logic">
          <obj_property name="ElementShortName">clk_i</obj_property>
          <obj_property name="ObjectShortName">clk_i</obj_property>
@@ -420,101 +771,109 @@
          <obj_property name="ElementShortName">ready_i</obj_property>
          <obj_property name="ObjectShortName">ready_i</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o" type="array">
-         <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
-         <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter" type="array">
+         <obj_property name="ElementShortName">counter[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[1:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/valid_o" type="logic">
-         <obj_property name="ElementShortName">valid_o</obj_property>
-         <obj_property name="ObjectShortName">valid_o</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/ready_o" type="logic">
-         <obj_property name="ElementShortName">ready_o</obj_property>
-         <obj_property name="ObjectShortName">ready_o</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mixed_signal" type="array">
-         <obj_property name="ElementShortName">mixed_signal[0:7][49:0]</obj_property>
-         <obj_property name="ObjectShortName">mixed_signal[0:7][49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal" type="array">
-         <obj_property name="ElementShortName">mix_out_signal[0:7][49:0]</obj_property>
-         <obj_property name="ObjectShortName">mix_out_signal[0:7][49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/in_counter" type="array">
+         <obj_property name="ElementShortName">in_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">in_counter[2:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/input_array" type="array">
          <obj_property name="ElementShortName">input_array[0:7][49:0]</obj_property>
          <obj_property name="ObjectShortName">input_array[0:7][49:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array" type="array">
-         <obj_property name="ElementShortName">output_array[0:7][49:0]</obj_property>
-         <obj_property name="ObjectShortName">output_array[0:7][49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mixed_signal" type="array">
+         <obj_property name="ElementShortName">mixed_signal[0:7][49:0]</obj_property>
+         <obj_property name="ObjectShortName">mixed_signal[0:7][49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/prestage_sum" type="array">
+         <obj_property name="ElementShortName">prestage_sum[49:0]</obj_property>
+         <obj_property name="ObjectShortName">prestage_sum[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/prestage_dif" type="array">
+         <obj_property name="ElementShortName">prestage_dif[49:0]</obj_property>
+         <obj_property name="ObjectShortName">prestage_dif[49:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1350">
+         <obj_property name="label">stage1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/data_a_stage_1_ff" type="array">
          <obj_property name="ElementShortName">data_a_stage_1_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">data_a_stage_1_ff[49:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/data_a_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">data_a_stage_2_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">data_a_stage_2_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/data_a_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">data_a_stage_3_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">data_a_stage_3_ff[49:0]</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_1_ff" type="array">
          <obj_property name="ElementShortName">counter_stage_1_ff[1:0]</obj_property>
          <obj_property name="ObjectShortName">counter_stage_1_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_2_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_2_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_3_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_3_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_4_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_4_ff[1:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_1_ff" type="array">
          <obj_property name="ElementShortName">coef_stage_1_ff[35:0]</obj_property>
          <obj_property name="ObjectShortName">coef_stage_1_ff[35:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_2_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_2_ff[35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_3_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_3_ff[35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_4_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_4_ff[35:0]</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_1_ff" type="array">
          <obj_property name="ElementShortName">sum_stage_1_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">sum_stage_1_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im_1" type="array">
+         <obj_property name="ElementShortName">im_1[42:0]</obj_property>
+         <obj_property name="ObjectShortName">im_1[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im_2" type="array">
+         <obj_property name="ElementShortName">im_2[42:0]</obj_property>
+         <obj_property name="ObjectShortName">im_2[42:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1351">
+         <obj_property name="label">stage2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/data_a_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">data_a_stage_2_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">data_a_stage_2_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_2_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_2_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_2_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_2_ff[35:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_2_ff" type="array">
          <obj_property name="ElementShortName">sum_stage_2_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">sum_stage_2_ff[49:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">sum_stage_3_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">sum_stage_3_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">sum_stage_4_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">sum_stage_4_ff[49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re1_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">re1_stage_2_ff[42:0]</obj_property>
+         <obj_property name="ObjectShortName">re1_stage_2_ff[42:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im1_stage_2_ff" type="array">
          <obj_property name="ElementShortName">im1_stage_2_ff[42:0]</obj_property>
          <obj_property name="ObjectShortName">im1_stage_2_ff[42:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re1_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">re1_stage_2_ff[42:0]</obj_property>
-         <obj_property name="ObjectShortName">re1_stage_2_ff[42:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re_1" type="array">
+         <obj_property name="ElementShortName">re_1[42:0]</obj_property>
+         <obj_property name="ObjectShortName">re_1[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re_2" type="array">
+         <obj_property name="ElementShortName">re_2[42:0]</obj_property>
+         <obj_property name="ObjectShortName">re_2[42:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1352">
+         <obj_property name="label">stage3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/data_a_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">data_a_stage_3_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">data_a_stage_3_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_3_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_3_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_3_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_3_ff[35:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im1_stage_3_ff" type="array">
          <obj_property name="ElementShortName">im1_stage_3_ff[42:0]</obj_property>
@@ -532,13 +891,353 @@
          <obj_property name="ElementShortName">re2_stage_3_ff[42:0]</obj_property>
          <obj_property name="ObjectShortName">re2_stage_3_ff[42:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/prestage_sum" type="array">
-         <obj_property name="ElementShortName">prestage_sum[49:0]</obj_property>
-         <obj_property name="ObjectShortName">prestage_sum[49:0]</obj_property>
+      <wvobject type="divider" fp_name="divider1353">
+         <obj_property name="label">stage4</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/prestage_dif" type="array">
-         <obj_property name="ElementShortName">prestage_dif[49:0]</obj_property>
-         <obj_property name="ObjectShortName">prestage_dif[49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/ready_o" type="logic">
+         <obj_property name="ElementShortName">ready_o</obj_property>
+         <obj_property name="ObjectShortName">ready_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o" type="array">
+         <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus554" type="vbus">
+         <obj_property name="label">re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus528" type="vbus">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_o[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal" type="array">
+         <obj_property name="ElementShortName">mix_out_signal[0:7][49:0]</obj_property>
+         <obj_property name="ObjectShortName">mix_out_signal[0:7][49:0]</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[0]" type="array">
+            <obj_property name="ElementShortName">[0][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[1]" type="array">
+            <obj_property name="ElementShortName">[1][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[2]" type="array">
+            <obj_property name="ElementShortName">[2][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[3]" type="array">
+            <obj_property name="ElementShortName">[3][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[4]" type="array">
+            <obj_property name="ElementShortName">[4][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[5]" type="array">
+            <obj_property name="ElementShortName">[5][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[6]" type="array">
+            <obj_property name="ElementShortName">[6][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/mix_out_signal[7]" type="array">
+            <obj_property name="ElementShortName">[7][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array" type="array">
+         <obj_property name="ElementShortName">output_array[0:7][49:0]</obj_property>
+         <obj_property name="ObjectShortName">output_array[0:7][49:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[0]" type="array">
+            <obj_property name="ElementShortName">[0][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[1]" type="array">
+            <obj_property name="ElementShortName">[1][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[2]" type="array">
+            <obj_property name="ElementShortName">[2][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[3]" type="array">
+            <obj_property name="ElementShortName">[3][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[4]" type="array">
+            <obj_property name="ElementShortName">[4][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[5]" type="array">
+            <obj_property name="ElementShortName">[5][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[6]" type="array">
+            <obj_property name="ElementShortName">[6][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/output_array[7]" type="array">
+            <obj_property name="ElementShortName">[7][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_4_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_4_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/coef_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_4_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_4_ff[35:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">sum_stage_3_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage_3_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/sum_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">sum_stage_4_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage_4_ff[49:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/signal_re_part" type="array">
          <obj_property name="ElementShortName">signal_re_part[47:0]</obj_property>
@@ -560,166 +1259,15 @@
          <obj_property name="ElementShortName">coef[0:3][35:0]</obj_property>
          <obj_property name="ObjectShortName">coef[0:3][35:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im_1" type="array">
-         <obj_property name="ElementShortName">im_1[42:0]</obj_property>
-         <obj_property name="ObjectShortName">im_1[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/im_2" type="array">
-         <obj_property name="ElementShortName">im_2[42:0]</obj_property>
-         <obj_property name="ObjectShortName">im_2[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re_1" type="array">
-         <obj_property name="ElementShortName">re_1[42:0]</obj_property>
-         <obj_property name="ObjectShortName">re_1[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/re_2" type="array">
-         <obj_property name="ElementShortName">re_2[42:0]</obj_property>
-         <obj_property name="ObjectShortName">re_2[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/counter" type="array">
-         <obj_property name="ElementShortName">counter[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/in_counter" type="array">
-         <obj_property name="ElementShortName">in_counter[2:0]</obj_property>
-         <obj_property name="ObjectShortName">in_counter[2:0]</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/out_counter" type="array">
          <obj_property name="ElementShortName">out_counter[2:0]</obj_property>
          <obj_property name="ObjectShortName">out_counter[2:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/DATA_WIDTH" type="array">
-         <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
-         <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage2/COEF" type="array">
-         <obj_property name="ElementShortName">COEF[31:0]</obj_property>
-         <obj_property name="ObjectShortName">COEF[31:0]</obj_property>
       </wvobject>
    </wvobject>
    <wvobject fp_name="group1180" type="group">
       <obj_property name="label">3_stage</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject fp_name="group2005" type="group">
-         <obj_property name="label">stage3_signal_out_sorted</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <wvobject fp_name="vbus1979" type="vbus">
-            <obj_property name="label">re_0</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1953" type="vbus">
-            <obj_property name="label">im_0</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1877" type="vbus">
-            <obj_property name="label">re_1</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1851" type="vbus">
-            <obj_property name="label">im_1</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1775" type="vbus">
-            <obj_property name="label">re_2</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1749" type="vbus">
-            <obj_property name="label">im_2</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1673" type="vbus">
-            <obj_property name="label">re_3</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1647" type="vbus">
-            <obj_property name="label">im_3</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1571" type="vbus">
-            <obj_property name="label">re_4</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1545" type="vbus">
-            <obj_property name="label">im_4</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1469" type="vbus">
-            <obj_property name="label">re_5</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1443" type="vbus">
-            <obj_property name="label">im_5</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1367" type="vbus">
-            <obj_property name="label">re_6</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1341" type="vbus">
-            <obj_property name="label">im_6</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1265" type="vbus">
-            <obj_property name="label">re_7</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject fp_name="vbus1239" type="vbus">
-            <obj_property name="label">im_7</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject fp_name="vbus2127" type="vbus">
-         <obj_property name="label">re_sum</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus2101" type="vbus">
-         <obj_property name="label">im_sum</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus2229" type="vbus">
-         <obj_property name="label">re_dif</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="vbus2203" type="vbus">
-         <obj_property name="label">im_dif</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider2006">
-         <obj_property name="label">stage1</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider2007">
-         <obj_property name="label">stage2</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider2008">
-         <obj_property name="label">stage3</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
-      <wvobject type="divider" fp_name="divider2009">
-         <obj_property name="label">stage4</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-      </wvobject>
+      <obj_property name="isExpanded"></obj_property>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/clk_i" type="logic">
          <obj_property name="ElementShortName">clk_i</obj_property>
          <obj_property name="ObjectShortName">clk_i</obj_property>
@@ -732,6 +1280,216 @@
          <obj_property name="ElementShortName">signal_i[49:0]</obj_property>
          <obj_property name="ObjectShortName">signal_i[49:0]</obj_property>
       </wvobject>
+      <wvobject fp_name="vbus758" type="vbus">
+         <obj_property name="label">re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus732" type="vbus">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_i[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/valid_i" type="logic">
          <obj_property name="ElementShortName">valid_i</obj_property>
          <obj_property name="ObjectShortName">valid_i</obj_property>
@@ -740,93 +1498,71 @@
          <obj_property name="ElementShortName">ready_i</obj_property>
          <obj_property name="ObjectShortName">ready_i</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o" type="array">
-         <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
-         <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/valid_o" type="logic">
-         <obj_property name="ElementShortName">valid_o</obj_property>
-         <obj_property name="ObjectShortName">valid_o</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/ready_o" type="logic">
-         <obj_property name="ElementShortName">ready_o</obj_property>
-         <obj_property name="ObjectShortName">ready_o</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/mixed_signal" type="array">
          <obj_property name="ElementShortName">mixed_signal[0:7][49:0]</obj_property>
          <obj_property name="ObjectShortName">mixed_signal[0:7][49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/mix_out_signal" type="array">
-         <obj_property name="ElementShortName">mix_out_signal[0:7][49:0]</obj_property>
-         <obj_property name="ObjectShortName">mix_out_signal[0:7][49:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/input_array" type="array">
          <obj_property name="ElementShortName">input_array[0:7][49:0]</obj_property>
          <obj_property name="ObjectShortName">input_array[0:7][49:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array" type="array">
-         <obj_property name="ElementShortName">output_array[0:7][49:0]</obj_property>
-         <obj_property name="ObjectShortName">output_array[0:7][49:0]</obj_property>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter" type="array">
+         <obj_property name="ElementShortName">counter[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/in_counter" type="array">
+         <obj_property name="ElementShortName">in_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">in_counter[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider2006">
+         <obj_property name="label">stage1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/data_a_stage_1_ff" type="array">
          <obj_property name="ElementShortName">data_a_stage_1_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">data_a_stage_1_ff[49:0]</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/data_a_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">data_a_stage_2_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">data_a_stage_2_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/data_a_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">data_a_stage_3_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">data_a_stage_3_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_1_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_1_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_1_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_2_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_2_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_3_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_3_ff[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">counter_stage_4_ff[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter_stage_4_ff[1:0]</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_1_ff" type="array">
          <obj_property name="ElementShortName">coef_stage_1_ff[35:0]</obj_property>
          <obj_property name="ObjectShortName">coef_stage_1_ff[35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_2_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_2_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_2_ff[35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_3_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_3_ff[35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">coef_stage_4_ff[35:0]</obj_property>
-         <obj_property name="ObjectShortName">coef_stage_4_ff[35:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_1_ff" type="array">
          <obj_property name="ElementShortName">sum_stage_1_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">sum_stage_1_ff[49:0]</obj_property>
       </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_1_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_1_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_1_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im_1" type="array">
+         <obj_property name="ElementShortName">im_1[42:0]</obj_property>
+         <obj_property name="ObjectShortName">im_1[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re_1" type="array">
+         <obj_property name="ElementShortName">re_1[42:0]</obj_property>
+         <obj_property name="ObjectShortName">re_1[42:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider2007">
+         <obj_property name="label">stage2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/data_a_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">data_a_stage_2_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">data_a_stage_2_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_2_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_2_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_2_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_2_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_2_ff[35:0]</obj_property>
+      </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_2_ff" type="array">
          <obj_property name="ElementShortName">sum_stage_2_ff[49:0]</obj_property>
          <obj_property name="ObjectShortName">sum_stage_2_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_3_ff" type="array">
-         <obj_property name="ElementShortName">sum_stage_3_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">sum_stage_3_ff[49:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_4_ff" type="array">
-         <obj_property name="ElementShortName">sum_stage_4_ff[49:0]</obj_property>
-         <obj_property name="ObjectShortName">sum_stage_4_ff[49:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im1_stage_2_ff" type="array">
          <obj_property name="ElementShortName">im1_stage_2_ff[42:0]</obj_property>
@@ -835,6 +1571,34 @@
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re1_stage_2_ff" type="array">
          <obj_property name="ElementShortName">re1_stage_2_ff[42:0]</obj_property>
          <obj_property name="ObjectShortName">re1_stage_2_ff[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im_2" type="array">
+         <obj_property name="ElementShortName">im_2[42:0]</obj_property>
+         <obj_property name="ObjectShortName">im_2[42:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re_2" type="array">
+         <obj_property name="ElementShortName">re_2[42:0]</obj_property>
+         <obj_property name="ObjectShortName">re_2[42:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider2008">
+         <obj_property name="label">stage3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/data_a_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">data_a_stage_3_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">data_a_stage_3_ff[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_3_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_3_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_3_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_3_ff[35:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_3_ff" type="array">
+         <obj_property name="ElementShortName">sum_stage_3_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage_3_ff[49:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im1_stage_3_ff" type="array">
          <obj_property name="ElementShortName">im1_stage_3_ff[42:0]</obj_property>
@@ -851,6 +1615,302 @@
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re2_stage_3_ff" type="array">
          <obj_property name="ElementShortName">re2_stage_3_ff[42:0]</obj_property>
          <obj_property name="ObjectShortName">re2_stage_3_ff[42:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider2009">
+         <obj_property name="label">stage4</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o" type="array">
+         <obj_property name="ElementShortName">signal_o[49:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_o[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus656" type="vbus">
+         <obj_property name="label">re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus630" type="vbus">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/signal_o[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/ready_o" type="logic">
+         <obj_property name="ElementShortName">ready_o</obj_property>
+         <obj_property name="ObjectShortName">ready_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/mix_out_signal" type="array">
+         <obj_property name="ElementShortName">mix_out_signal[0:7][49:0]</obj_property>
+         <obj_property name="ObjectShortName">mix_out_signal[0:7][49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array" type="array">
+         <obj_property name="ElementShortName">output_array[0:7][49:0]</obj_property>
+         <obj_property name="ObjectShortName">output_array[0:7][49:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[0]" type="array">
+            <obj_property name="ElementShortName">[0][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[1]" type="array">
+            <obj_property name="ElementShortName">[1][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[2]" type="array">
+            <obj_property name="ElementShortName">[2][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[3]" type="array">
+            <obj_property name="ElementShortName">[3][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[4]" type="array">
+            <obj_property name="ElementShortName">[4][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[5]" type="array">
+            <obj_property name="ElementShortName">[5][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[6]" type="array">
+            <obj_property name="ElementShortName">[6][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/output_array[7]" type="array">
+            <obj_property name="ElementShortName">[7][49:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][49:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">counter_stage_4_ff[1:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_stage_4_ff[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">coef_stage_4_ff[35:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_stage_4_ff[35:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/sum_stage_4_ff" type="array">
+         <obj_property name="ElementShortName">sum_stage_4_ff[49:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage_4_ff[49:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/prestage_sum" type="array">
          <obj_property name="ElementShortName">prestage_sum[49:0]</obj_property>
@@ -879,30 +1939,6 @@
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/coef" type="array">
          <obj_property name="ElementShortName">coef[0:3][35:0]</obj_property>
          <obj_property name="ObjectShortName">coef[0:3][35:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im_1" type="array">
-         <obj_property name="ElementShortName">im_1[42:0]</obj_property>
-         <obj_property name="ObjectShortName">im_1[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/im_2" type="array">
-         <obj_property name="ElementShortName">im_2[42:0]</obj_property>
-         <obj_property name="ObjectShortName">im_2[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re_1" type="array">
-         <obj_property name="ElementShortName">re_1[42:0]</obj_property>
-         <obj_property name="ObjectShortName">re_1[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/re_2" type="array">
-         <obj_property name="ElementShortName">re_2[42:0]</obj_property>
-         <obj_property name="ObjectShortName">re_2[42:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/counter" type="array">
-         <obj_property name="ElementShortName">counter[1:0]</obj_property>
-         <obj_property name="ObjectShortName">counter[1:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/in_counter" type="array">
-         <obj_property name="ElementShortName">in_counter[2:0]</obj_property>
-         <obj_property name="ObjectShortName">in_counter[2:0]</obj_property>
       </wvobject>
       <wvobject fp_name="/tb_fft_butterfly/dut1/stage3/out_counter" type="array">
          <obj_property name="ElementShortName">out_counter[2:0]</obj_property>

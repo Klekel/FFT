@@ -18,6 +18,7 @@ logic        valid_stage1;
 logic        ready_stage12;
 logic        valid_stage2;
 logic        ready_stage23;
+logic        ready_stage11;
 // logic        clk_stage2;
 // logic        clk_stage3;
 
@@ -30,7 +31,7 @@ fft_butterfly_stage1  stage1
 .ready_i(ready_stage12),
 .signal_o(stage1_signal),
 .valid_o(valid_stage1),
-.ready_o(ready_o)
+.ready_o(ready_stage11)
 );
 
 fft_butterfly_stage2  stage2
@@ -56,6 +57,8 @@ fft_butterfly_stage3  stage3
 .valid_o(valid_o),
 .ready_o(ready_stage23)
 );
+
+assign ready_o = ready_stage23 && ready_stage12 && ready_stage11;
 // assign clk_stage2 = clk_i & valid_stage1;
 // assign clk_stage3 = clk_i & valid_stage2;
 
