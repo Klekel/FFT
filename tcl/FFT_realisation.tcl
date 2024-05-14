@@ -550,6 +550,7 @@ set obj [get_dashboard_gadgets [ list "timing_1" ] ]
 set_property -name "reports" -value "impl_1#impl_1_route_report_timing_summary_0" -objects $obj
 
 # Create 'utilization_1' gadget (if not found)
+
 if {[string equal [get_dashboard_gadgets  [ list "utilization_1" ] ] ""]} {
 create_dashboard_gadget -name {utilization_1} -type utilization
 }
