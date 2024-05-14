@@ -58,6 +58,12 @@ signal_i <= 50'b00000000000000000000000110000000000000000000000000;
 valid_i <= 0;
 
 
+
+end
+
+
+initial begin
+  wait(!rst_i)
   do begin
     @(posedge clk_i);
   end
