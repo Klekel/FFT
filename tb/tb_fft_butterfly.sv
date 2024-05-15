@@ -32,8 +32,10 @@ end
 initial 
 begin
 rst_i   <= 1;
+valid_i <= 0;
 ready_i <= 1;
 clk_i   <= 1;
+signal_i<= '0;
 #10
 rst_i <= 0;
 #205
@@ -63,11 +65,11 @@ end
 
 
 initial begin
-  wait(!rst_i)
+  // wait(!rst_i)
   do begin
     @(posedge clk_i);
   end
-  while(!valid_o);
+  while(valid_o !== 1);
   if(signal_o != 50'h000090a0001e0) $display("%t BAD IN 0", $time());
   @(posedge clk_i);
   if(signal_o != 50'h00007f5ffff0e) $display("%t BAD IN 1", $time());
