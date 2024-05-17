@@ -215,20 +215,36 @@ always_ff @(posedge clk_i) begin
     coef_stage_4_ff <= '0;
   end
   else begin
-    case(stage_i) 
-      2'd0:coef_stage_1_ff <= coef[counter];
-      2'd1:coef_stage_1_ff <= coef[2 * (counter % 2)];
-      2'd2:coef_stage_1_ff <= coef[0];
-      default:coef_stage_1_ff <= coef[counter];
+    case( stage_i ) 
+      2'd0:
+      begin
+        coef_stage_1_ff <= coef[counter];
+      end
+
+      2'd1:
+      begin
+        coef_stage_1_ff <= coef[2 * (counter % 2)];
+      end
+
+      2'd2:
+      begin
+        coef_stage_1_ff <= coef[0];
+      end
+
+      default:
+      begin
+        coef_stage_1_ff <= coef[counter];
+      end
     endcase
+    
     coef_stage_2_ff <= coef_stage_1_ff;
     coef_stage_3_ff <= coef_stage_2_ff;
     coef_stage_4_ff <= coef_stage_3_ff;
   end
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     sum_stage_1_ff <= '0;
     sum_stage_2_ff <= '0;
     sum_stage_3_ff <= '0;
@@ -242,8 +258,8 @@ always_ff @(posedge clk_i) begin
   end
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     im1_stage_2_ff <= '0;
     im1_stage_3_ff <= '0;
   end
@@ -253,8 +269,8 @@ always_ff @(posedge clk_i) begin
   end
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     re1_stage_2_ff <= '0;
     re1_stage_3_ff <= '0;
   end 
@@ -264,8 +280,8 @@ always_ff @(posedge clk_i) begin
   end
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     im2_stage_3_ff <= '0;
   end
   else begin
@@ -273,8 +289,8 @@ always_ff @(posedge clk_i) begin
   end
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     re2_stage_3_ff <= '0;
   end
   else begin
@@ -283,8 +299,8 @@ always_ff @(posedge clk_i) begin
 
 end
 
-always_ff @(posedge clk_i) begin
-  if(rst_i)begin
+always_ff @( posedge clk_i ) begin
+  if( rst_i )begin
     signal_re_part_stage_4_ff <= '0;
     signal_im_part_stage_4_ff <= '0;
   end
@@ -301,17 +317,18 @@ assign prestage_sum = { $signed(mixed_signal[counter][DATA_WIDTH-1:DATA_WIDTH/2]
 assign prestage_dif = { $signed(mixed_signal[counter][DATA_WIDTH-1:DATA_WIDTH/2]) - $signed(mixed_signal[counter + 4][DATA_WIDTH-1:DATA_WIDTH/2]),
                         $signed(mixed_signal[counter][DATA_WIDTH/2-1:0])          - $signed(mixed_signal[counter + 4][DATA_WIDTH/2-1:0]) };
 
-assign re_1           = $signed( data_a_stage_1_ff[DATA_WIDTH/2-1:0])          * $signed(coef_stage_1_ff[COEF/2-1:0]      );
-assign re_2           = $signed( data_a_stage_2_ff[DATA_WIDTH-1:DATA_WIDTH/2]) * $signed(coef_stage_2_ff[COEF-1:COEF/2]   );
-assign im_1           = $signed( data_a_stage_1_ff[DATA_WIDTH/2-1:0])          * $signed(coef_stage_1_ff[COEF-1:COEF/2]   ); 
-assign im_2           = $signed( data_a_stage_2_ff[DATA_WIDTH-1:DATA_WIDTH/2]) * $signed(coef_stage_2_ff[COEF/2-1:0]      );
-assign signal_re_part = $signed(re2_stage_3_ff) - $signed(re1_stage_3_ff);
-assign signal_im_part = $signed(im2_stage_3_ff) + $signed(im1_stage_3_ff);
+assign re_1           = $signed( data_a_stage_1_ff[DATA_WIDTH/2-1:0])          * $signed(coef_stage_1_ff[COEF/2-1:0]    );
+assign re_2           = $signed( data_a_stage_2_ff[DATA_WIDTH-1:DATA_WIDTH/2]) * $signed(coef_stage_2_ff[COEF-1:COEF/2] );
+assign im_1           = $signed( data_a_stage_1_ff[DATA_WIDTH/2-1:0])          * $signed(coef_stage_1_ff[COEF-1:COEF/2] ); 
+assign im_2           = $signed( data_a_stage_2_ff[DATA_WIDTH-1:DATA_WIDTH/2]) * $signed(coef_stage_2_ff[COEF/2-1:0]    );
+assign signal_re_part = $signed( re2_stage_3_ff ) - $signed( re1_stage_3_ff );
+assign signal_im_part = $signed( im2_stage_3_ff ) + $signed( im1_stage_3_ff );
 
 
 always_comb begin
-  case(stage_i) 
-      2'd0:
+  case( stage_i ) 
+    2'd0:
+      begin
         mixed_signal[0] = input_array[0];
         mixed_signal[1] = input_array[1]; 
         mixed_signal[2] = input_array[2];
@@ -320,7 +337,10 @@ always_comb begin
         mixed_signal[5] = input_array[5];
         mixed_signal[6] = input_array[6];
         mixed_signal[7] = input_array[7];
-      2'd1:
+      end
+
+    2'd1:
+      begin
         mixed_signal[0] = input_array[0];
         mixed_signal[1] = input_array[1]; 
         mixed_signal[2] = input_array[4];
@@ -329,7 +349,10 @@ always_comb begin
         mixed_signal[5] = input_array[3];
         mixed_signal[6] = input_array[6];
         mixed_signal[7] = input_array[7];
-      2'd2:  
+      end
+
+    2'd2:
+      begin  
         mixed_signal[0] = input_array[0];
         mixed_signal[4] = input_array[1]; 
         mixed_signal[1] = input_array[2];
@@ -337,8 +360,11 @@ always_comb begin
         mixed_signal[2] = input_array[4];
         mixed_signal[6] = input_array[5];
         mixed_signal[3] = input_array[6];
-        mixed_signal[7] = input_array[7];;
-      default:
+        mixed_signal[7] = input_array[7];
+      end
+
+    default:
+      begin
         mixed_signal[0] = input_array[0];
         mixed_signal[1] = input_array[1]; 
         mixed_signal[2] = input_array[2];
@@ -346,13 +372,15 @@ always_comb begin
         mixed_signal[4] = input_array[4];
         mixed_signal[5] = input_array[5];
         mixed_signal[6] = input_array[6];
-        mixed_signal[7] = input_array[7];;
-    endcase
+        mixed_signal[7] = input_array[7];
+        end
+  endcase
 end
 
 always_comb begin
-    case(stage_i) 
-      2'd0:
+  case( stage_i ) 
+    2'd0:
+      begin
         output_array[0] = mix_out_signal[0];
         output_array[1] = mix_out_signal[1];
         output_array[2] = mix_out_signal[2];
@@ -361,7 +389,10 @@ always_comb begin
         output_array[5] = mix_out_signal[5];
         output_array[6] = mix_out_signal[6];
         output_array[7] = mix_out_signal[7];
-      2'd1:
+      end
+
+    2'd1:
+      begin
         output_array[0] = mix_out_signal[0];
         output_array[1] = mix_out_signal[1];
         output_array[2] = mix_out_signal[4];
@@ -370,7 +401,10 @@ always_comb begin
         output_array[5] = mix_out_signal[3];
         output_array[6] = mix_out_signal[6];
         output_array[7] = mix_out_signal[7];
-      2'd2:  
+      end
+
+    2'd2:
+      begin  
         output_array[0] = mix_out_signal[0];
         output_array[1] = mix_out_signal[2]; 
         output_array[2] = mix_out_signal[1];
@@ -379,7 +413,10 @@ always_comb begin
         output_array[5] = mix_out_signal[6];
         output_array[6] = mix_out_signal[5];
         output_array[7] = mix_out_signal[7];
-      default:
+      end
+
+    default:
+      begin
         output_array[0] = mix_out_signal[0];
         output_array[1] = mix_out_signal[1];
         output_array[2] = mix_out_signal[2];
@@ -388,21 +425,22 @@ always_comb begin
         output_array[5] = mix_out_signal[5];
         output_array[6] = mix_out_signal[6];
         output_array[7] = mix_out_signal[7];
-    endcase
+      end
+  endcase
 end
 
 
-always_ff @(posedge clk_i or posedge rst_i) begin
-  if(rst_i)begin
-    for(int i=0; i<$size(signal_o) ;i++) begin
+always_ff @( posedge clk_i or posedge rst_i ) begin
+  if( rst_i )begin
+    for( int i=0; i < $size( signal_o ) ; i++ ) begin
       output_array[i] <= '0;
     end
   end
 end
 
-always_ff @(posedge clk_i or posedge rst_i) begin
+always_ff @( posedge clk_i or posedge rst_i ) begin
   if(rst_i)begin
-    for(int i=0; i<$size(mix_out_signal) ;i++) begin
+    for( int i=0; i < $size( mix_out_signal ) ; i++ ) begin
       mix_out_signal[i] <= '0;
     end
   end
