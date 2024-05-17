@@ -1,1 +1,5 @@
 FFT_realisation/
+tcl\fft_realisation.tcl
+rtl\fft_butterfly_stage1.sv
+rtl\fft_butterfly_stage2.sv
+rtl\fft_butterfly_stage3.sv
